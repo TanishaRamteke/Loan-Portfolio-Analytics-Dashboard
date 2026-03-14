@@ -40,6 +40,8 @@ The dashboard is built using three datasets:
 • Loans – Contains loan amount, loan type, interest rate, and tenure details  
 • Repayments – Contains EMI payments, payment dates, and repayment tracking
 
+---
+
 ## Data Model
 
 The dashboard uses a relational data model connecting:
@@ -48,6 +50,7 @@ Customers → Loans → Repayments
 
 A Date Table was created in Power BI and linked with the payment date to enable monthly trend analysis and time-based filtering.
 
+---
 
 ## Dashboard Preview
 ![Dashboard](dashboard_screenshot.png)
